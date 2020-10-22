@@ -1,0 +1,38 @@
+---
+title: "Credit Model"
+output: html_notebook
+---
+
+```{r setup}
+# Packages ----
+library(tidymodels)
+library(tidyverse)
+library(DBI)
+```
+
+```{r data}
+con <- dbConnect(RSQLite::SQLite(), "data/credit")
+credit_data <- tbl(con, "credit") %>% 
+  collect() %>% 
+  mutate_if(is.character, as.factor) %>% 
+  mutate(job = as.factor(job))
+dbDisconnect(con)
+
+credit_data
+```
+
+
+```{r}
+rf_mod <- rand_forest(mode = "classification") %>% 
+  set_engine("ranger")
+
+rf_fit <- rf_mod %>% 
+  fit(risk ~ ., data = credit_data)
+
+rf_fit
+```
+
+```{r}
+readr::write_rds(rf_fit, "credit-model.rds")
+```
+

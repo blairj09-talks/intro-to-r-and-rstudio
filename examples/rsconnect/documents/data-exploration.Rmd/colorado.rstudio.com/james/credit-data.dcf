@@ -1,0 +1,12 @@
+name: credit-data
+title: credit-data
+username: james
+account: james
+server: colorado.rstudio.com
+hostUrl: https://colorado.rstudio.com/rsc/__api__
+appId: 7516
+bundleId: 40907
+url: https://colorado.rstudio.com/rsc/credit-data/
+when: 1603350945.16182
+asMultiple: FALSE
+asStatic: FALSE

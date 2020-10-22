@@ -1,0 +1,25 @@
+---
+title: "Data ETL"
+output: html_notebook
+---
+
+Move data from `.csv` file into local SQLite database.
+
+```{r}
+library(DBI)
+library(tidyverse)
+con <- dbConnect(RSQLite::SQLite(), "data/credit")
+
+credit_data <- readr::read_csv("data/german_credit_data.csv") %>% 
+  select(-1) %>% 
+  janitor::clean_names() %>% 
+  replace_na(list(
+    saving_accounts = "na",
+    checking_account = "na"
+  ))
+
+dbWriteTable(con, "credit", credit_data, overwrite = TRUE)
+
+dbDisconnect(con)
+```
+

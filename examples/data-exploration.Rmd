@@ -1,0 +1,58 @@
+---
+title: "Credit Data"
+output: html_notebook
+---
+
+```{r setup}
+# Packages ----
+library(tidyverse)
+library(DBI)
+```
+
+```{r data}
+con <- dbConnect(RSQLite::SQLite(), "data/credit")
+credit_data <- tbl(con, "credit")
+```
+
+## Data Exploration
+```{r}
+colnames(credit_data)
+```
+
+
+```{r}
+credit_data %>% 
+  count(risk)
+```
+
+```{r}
+credit_data %>% 
+  count(purpose, sort = TRUE)
+```
+
+```{r}
+credit_data %>% 
+  group_by(purpose) %>% 
+  summarise(n = n(),
+            p_good = mean(risk == "good"),
+            mean_amt = mean(credit_amount)) %>% 
+  arrange(desc(n))
+```
+
+
+```{r}
+credit_data %>% 
+  collect() %>% 
+  ggplot(aes(x = risk, y = credit_amount)) +
+  geom_boxplot()
+```
+
+```{r}
+credit_data %>% 
+  count(housing, risk)
+```
+
+```{r}
+dbDisconnect(con)
+```
+
