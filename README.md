@@ -8,6 +8,21 @@ tools:
 * [Connecting to databases from R](https://db.rstudio.com/)
 
 # Examples
+The examples in this repository are built around a German credit data set from
+[Kaggle](https://www.kaggle.com/uciml/german-credit). This data was downloaded
+from Kaggle, then loaded into a local SQLite database in order to illustrated
+connecting to a database from R.
+
+### R Markdown
+An example R Markdown report can be found at
+[examples/data-exploration.Rmd](examples/data-exploration.Rmd). This document
+briefly explores the described credit data and highlights how to connect to a
+database from R and common use cases for the tidyverse.
+
+### Shiny
+An example Shiny application can be found at [examples/app.R](examples/app.R).
+This application demonstrates the power of Shiny as an interactive web framework
+by allowing the user to select inputs into a credit risk model.
 
 # Additional Resources
 ### [Cheatsheets](https://rstudio.com/resources/cheatsheets/)
