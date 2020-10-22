@@ -10,6 +10,10 @@ tools:
 # Examples
 
 # Additional Resources
+### [Cheatsheets](https://rstudio.com/resources/cheatsheets/)
+A collection of useful single page references for common R packages and RStudio
+tools.
+
 ### [R for Data Science](https://r4ds.had.co.nz/)
 A great book for an introduction to the tidyverse for common data science tasks.
 
