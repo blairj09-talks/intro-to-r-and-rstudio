@@ -32,6 +32,10 @@ tools.
 ### [R for Data Science](https://r4ds.had.co.nz/)
 A great book for an introduction to the tidyverse for common data science tasks.
 
+### [Advanced R](https://adv-r.hadley.nz/)
+A deep dive into what makes R work as a language. Helpful if you're coming from
+another programming background.
+
 ### [R Markdown Book](https://bookdown.org/yihui/rmarkdown/)
 The definitive guide for all things R Markdown.
 
