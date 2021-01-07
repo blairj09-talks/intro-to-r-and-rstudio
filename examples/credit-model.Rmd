@@ -9,6 +9,7 @@ library(tidymodels)
 library(tidyverse)
 library(DBI)
 library(pins)
+library(ranger)
 ```
 
 Collect data from database to build model.

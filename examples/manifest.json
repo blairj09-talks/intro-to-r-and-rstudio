@@ -13,6 +13,10 @@
     "BH": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "BH",
         "Type": "Package",
@@ -36,6 +40,10 @@
     "DBI": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "DBI",
         "Title": "R Database Interface",
@@ -64,6 +72,10 @@
     "DT": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "DT",
         "Type": "Package",
@@ -91,6 +103,10 @@
     "DiceDesign": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "DiceDesign",
         "Type": "Package",
@@ -116,6 +132,10 @@
     "GPfit": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "GPfit",
         "Title": "Gaussian Processes Modeling",
@@ -140,6 +160,10 @@
     "ISOcodes": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "ISOcodes",
         "Version": "2020.03.16",
@@ -162,6 +186,10 @@
     "KernSmooth": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "KernSmooth",
         "Priority": "recommended",
@@ -187,6 +215,10 @@
     "MASS": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "MASS",
         "Priority": "recommended",
@@ -217,6 +249,10 @@
     "Matrix": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "Matrix",
         "Version": "1.2-18",
@@ -249,6 +285,10 @@
     "R6": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "R6",
         "Title": "Encapsulated Classes with Reference Semantics",
@@ -275,6 +315,10 @@
     "RColorBrewer": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "RColorBrewer",
         "Version": "1.1-2",
@@ -297,6 +341,10 @@
     "RSQLite": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "RSQLite",
         "Title": "'SQLite' Interface for R",
@@ -327,6 +375,10 @@
     "Rcpp": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "Rcpp",
         "Title": "Seamless R and C++ Integration",
@@ -353,6 +405,10 @@
     "RcppEigen": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "RcppEigen",
         "Type": "Package",
@@ -382,6 +438,10 @@
     "RcppParallel": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "RcppParallel",
         "Type": "Package",
@@ -410,6 +470,10 @@
     "SQUAREM": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "SQUAREM",
         "Version": "2020.3",
@@ -434,6 +498,10 @@
     "SnowballC": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "SnowballC",
         "Type": "Package",
@@ -459,6 +527,10 @@
     "StanHeaders": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "StanHeaders",
         "Date": "2020-06-09",
@@ -487,6 +559,10 @@
     "askpass": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "askpass",
         "Type": "Package",
@@ -515,6 +591,10 @@
     "assertthat": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "assertthat",
         "Title": "Easy Pre and Post Assertions",
@@ -539,6 +619,10 @@
     "backports": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "backports",
         "Type": "Package",
@@ -566,6 +650,10 @@
     "base64enc": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "base64enc",
         "Version": "0.1-3",
@@ -588,6 +676,10 @@
     "bayesplot": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "bayesplot",
         "Type": "Package",
@@ -619,6 +711,10 @@
     "bit": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "bit",
         "Title": "A Class for Vectors of 1-Bit Booleans",
@@ -645,6 +741,10 @@
     "bit64": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "bit64",
         "Type": "Package",
@@ -670,6 +770,10 @@
     "blob": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "blob",
         "Title": "A Simple S3 Class for Representing Vectors of Binary Data\n('BLOBS')",
@@ -696,6 +800,10 @@
     "boot": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "boot",
         "Priority": "recommended",
@@ -723,6 +831,10 @@
     "broom": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Type": "Package",
         "Package": "broom",
@@ -752,6 +864,10 @@
     "callr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "callr",
         "Title": "Call R from R",
@@ -779,6 +895,10 @@
     "cellranger": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "cellranger",
         "Title": "Translate Spreadsheet Cell Ranges to Rows and Columns",
@@ -807,6 +927,10 @@
     "checkmate": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "checkmate",
         "Type": "Package",
@@ -838,6 +962,10 @@
     "class": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "class",
         "Priority": "recommended",
@@ -864,6 +992,10 @@
     "cli": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "cli",
         "Title": "Helpers for Developing Command Line Interfaces",
@@ -892,6 +1024,10 @@
     "clipr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Type": "Package",
         "Package": "clipr",
@@ -922,6 +1058,10 @@
     "codetools": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "codetools",
         "Version": "0.2-16",
@@ -943,6 +1083,10 @@
     "colorspace": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "colorspace",
         "Version": "1.4-1",
@@ -972,6 +1116,10 @@
     "colourpicker": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "colourpicker",
         "Type": "Package",
@@ -1001,6 +1149,10 @@
     "commonmark": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "commonmark",
         "Type": "Package",
@@ -1026,6 +1178,10 @@
     "crayon": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "crayon",
         "Title": "Colored Terminal Output",
@@ -1053,6 +1209,10 @@
     "crosstalk": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "crosstalk",
         "Type": "Package",
@@ -1079,6 +1239,10 @@
     "curl": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "curl",
         "Type": "Package",
@@ -1109,6 +1273,10 @@
     "dbplyr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Type": "Package",
         "Package": "dbplyr",
@@ -1141,6 +1309,10 @@
     "desc": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "desc",
         "Title": "Manipulate DESCRIPTION Files",
@@ -1169,6 +1341,10 @@
     "dials": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "dials",
         "Version": "0.0.7",
@@ -1198,6 +1374,10 @@
     "digest": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "digest",
         "Author": "Dirk Eddelbuettel <edd@debian.org> with contributions \n by Antoine Lucas, Jarek Tuszynski, Henrik Bengtsson, Simon Urbanek,\n Mario Frasca, Bryan Lewis, Murray Stokely, Hannes Muehleisen,\n Duncan Murdoch, Jim Hester, Wush Wu, Qiang Kou, Thierry Onkelinx, \n Michel Lang, Viliam Simko, Kurt Hornik, Radford Neal, Kendon Bell,\n Matthew de Queljoe, Ion Suruceanu, and Bill Denney.",
@@ -1224,6 +1404,10 @@
     "dplyr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Type": "Package",
         "Package": "dplyr",
@@ -1253,6 +1437,10 @@
     "dygraphs": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "dygraphs",
         "Type": "Package",
@@ -1281,6 +1469,10 @@
     "ellipsis": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "ellipsis",
         "Version": "0.3.1",
@@ -1308,6 +1500,10 @@
     "evaluate": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "evaluate",
         "Type": "Package",
@@ -1335,6 +1531,10 @@
     "fansi": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "fansi",
         "Title": "ANSI Control Sequence Aware String Functions",
@@ -1363,6 +1563,10 @@
     "farver": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "farver",
         "Type": "Package",
@@ -1389,6 +1593,10 @@
     "fastmap": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "fastmap",
         "Title": "Fast Implementation of a Key-Value Store",
@@ -1414,6 +1622,10 @@
     "filelock": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "filelock",
         "Title": "Portable File Locking",
@@ -1438,6 +1650,10 @@
     "forcats": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "forcats",
         "Title": "Tools for Working with Categorical Variables (Factors)",
@@ -1466,6 +1682,10 @@
     "foreach": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "foreach",
         "Type": "Package",
@@ -1495,6 +1715,10 @@
     "fs": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "fs",
         "Title": "Cross-Platform File System Operations Based on 'libuv'",
@@ -1527,6 +1751,10 @@
     "furrr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "furrr",
         "Version": "0.1.0",
@@ -1554,6 +1782,10 @@
     "future": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "future",
         "Version": "1.17.0",
@@ -1582,6 +1814,10 @@
     "generics": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "generics",
         "Version": "0.0.2",
@@ -1609,6 +1845,10 @@
     "ggplot2": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "ggplot2",
         "Version": "3.3.2",
@@ -1639,6 +1879,10 @@
     "ggridges": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "ggridges",
         "Type": "Package",
@@ -1669,6 +1913,10 @@
     "gh": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "gh",
         "Title": "'GitHub' 'API'",
@@ -1695,6 +1943,10 @@
     "git2r": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "git2r",
         "Title": "Provides Access to Git Repositories",
@@ -1726,6 +1978,10 @@
     "globals": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "globals",
         "Version": "0.12.5",
@@ -1753,6 +2009,10 @@
     "glue": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "glue",
         "Title": "Interpreted String Literals",
@@ -1782,6 +2042,10 @@
     "gower": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "gower",
         "Maintainer": "Mark van der Loo <mark.vanderloo@gmail.com>",
@@ -1809,6 +2073,10 @@
     "gridExtra": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "gridExtra",
         "Authors@R": "c(person(\"Baptiste\", \"Auguie\",\n    email = \"baptiste.auguie@gmail.com\",\n    role = c(\"aut\", \"cre\")), person(\"Anton\", \"Antonov\",\n    email = \"tonytonov@gmail.com\",\n    role = c(\"ctb\")))",
@@ -1834,6 +2102,10 @@
     "gtable": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "gtable",
         "Title": "Arrange 'Grobs' in Tables",
@@ -1862,6 +2134,10 @@
     "gtools": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "gtools",
         "Title": "Various R Programming Tools",
@@ -1886,6 +2162,10 @@
     "hardhat": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "hardhat",
         "Title": "Construct Modeling Packages",
@@ -1913,6 +2193,10 @@
     "haven": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "haven",
         "Title": "Import and Export 'SPSS', 'Stata' and 'SAS' Files",
@@ -1943,6 +2227,10 @@
     "highr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "highr",
         "Type": "Package",
@@ -1970,6 +2258,10 @@
     "hms": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "hms",
         "Title": "Pretty Time of Day",
@@ -1997,6 +2289,10 @@
     "htmltools": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "htmltools",
         "Type": "Package",
@@ -2026,6 +2322,10 @@
     "htmlwidgets": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "htmlwidgets",
         "Type": "Package",
@@ -2054,6 +2354,10 @@
     "httpuv": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "httpuv",
         "Type": "Package",
@@ -2084,6 +2388,10 @@
     "httr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "httr",
         "Title": "Tools for Working with URLs and HTTP",
@@ -2111,6 +2419,10 @@
     "hunspell": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "hunspell",
         "Type": "Package",
@@ -2141,6 +2453,10 @@
     "igraph": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "igraph",
         "Version": "1.2.5",
@@ -2168,6 +2484,10 @@
     "infer": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "infer",
         "Type": "Package",
@@ -2197,6 +2517,10 @@
     "ini": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "ini",
         "Type": "Package",
@@ -2223,6 +2547,10 @@
     "inline": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "inline",
         "Version": "0.3.15",
@@ -2249,6 +2577,10 @@
     "ipred": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "ipred",
         "Title": "Improved Predictors",
@@ -2273,6 +2605,10 @@
     "isoband": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "isoband",
         "Title": "Generate Isolines and Isobands from Regularly Spaced Elevation\nGrids",
@@ -2302,6 +2638,10 @@
     "iterators": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "iterators",
         "Type": "Package",
@@ -2325,6 +2665,10 @@
     "janeaustenr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "janeaustenr",
         "Title": "Jane Austen's Complete Novels",
@@ -2351,6 +2695,10 @@
     "jsonlite": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "jsonlite",
         "Version": "1.7.0",
@@ -2377,6 +2725,10 @@
     "knitr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "knitr",
         "Type": "Package",
@@ -2407,6 +2759,10 @@
     "labeling": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "labeling",
         "Type": "Package",
@@ -2433,6 +2789,10 @@
     "later": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "later",
         "Type": "Package",
@@ -2461,6 +2821,10 @@
     "lattice": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "lattice",
         "Version": "0.20-41",
@@ -2491,6 +2855,10 @@
     "lava": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "lava",
         "Type": "Package",
@@ -2521,6 +2889,10 @@
     "lazyeval": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "lazyeval",
         "Version": "0.2.2",
@@ -2546,6 +2918,10 @@
     "lhs": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "lhs",
         "Title": "Latin Hypercube Samples",
@@ -2575,6 +2951,10 @@
     "lifecycle": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "lifecycle",
         "Title": "Manage the Life Cycle of your Package Functions",
@@ -2603,6 +2983,10 @@
     "listenv": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "listenv",
         "Version": "0.8.0",
@@ -2630,6 +3014,10 @@
     "lme4": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "lme4",
         "Version": "1.1-23",
@@ -2659,6 +3047,10 @@
     "loo": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "loo",
         "Type": "Package",
@@ -2690,6 +3082,10 @@
     "lubridate": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Type": "Package",
         "Package": "lubridate",
@@ -2723,6 +3119,10 @@
     "magrittr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "magrittr",
         "Type": "Package",
@@ -2746,6 +3146,10 @@
     "markdown": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "markdown",
         "Type": "Package",
@@ -2774,6 +3178,10 @@
     "matrixStats": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "matrixStats",
         "Version": "0.56.0",
@@ -2802,6 +3210,10 @@
     "memoise": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Encoding": "UTF-8",
         "Package": "memoise",
@@ -2828,6 +3240,10 @@
     "mgcv": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "mgcv",
         "Version": "1.8-31",
@@ -2853,6 +3269,10 @@
     "mime": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "mime",
         "Type": "Package",
@@ -2879,6 +3299,10 @@
     "miniUI": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "miniUI",
         "Type": "Package",
@@ -2903,6 +3327,10 @@
     "minqa": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "minqa",
         "Type": "Package",
@@ -2927,6 +3355,10 @@
     "modelr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "modelr",
         "Title": "Modelling Functions that Work with the Pipe",
@@ -2954,6 +3386,10 @@
     "munsell": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "munsell",
         "Type": "Package",
@@ -2978,6 +3414,10 @@
     "nlme": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "nlme",
         "Version": "3.1-148",
@@ -3009,6 +3449,10 @@
     "nloptr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "nloptr",
         "Type": "Package",
@@ -3036,6 +3480,10 @@
     "nnet": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "nnet",
         "Priority": "recommended",
@@ -3062,6 +3510,10 @@
     "numDeriv": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "numDeriv",
         "Version": "2016.8-1.1",
@@ -3086,6 +3538,10 @@
     "openssl": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "openssl",
         "Type": "Package",
@@ -3114,6 +3570,10 @@
     "pROC": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "pROC",
         "Type": "Package",
@@ -3143,6 +3603,10 @@
     "packrat": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "packrat",
         "Type": "Package",
@@ -3169,6 +3633,10 @@
     "parsnip": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "parsnip",
         "Version": "0.1.1",
@@ -3198,6 +3666,10 @@
     "pillar": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "pillar",
         "Title": "Coloured Formatting for Columns",
@@ -3225,6 +3697,10 @@
     "pins": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "pins",
         "Type": "Package",
@@ -3254,6 +3730,10 @@
     "pkgbuild": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "pkgbuild",
         "Title": "Find Tools Needed to Build R Packages",
@@ -3281,6 +3761,10 @@
     "pkgconfig": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "pkgconfig",
         "Title": "Private Configuration for 'R' Packages",
@@ -3305,6 +3789,10 @@
     "pkgload": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "pkgload",
         "Title": "Simulate Package Installation and Attach",
@@ -3331,6 +3819,10 @@
     "plogr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "plogr",
         "Title": "The 'plog' C++ Logging Library",
@@ -3357,6 +3849,10 @@
     "plyr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "plyr",
         "Title": "Tools for Splitting, Applying and Combining Data",
@@ -3385,6 +3881,10 @@
     "praise": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "praise",
         "Title": "Praise Users",
@@ -3409,6 +3909,10 @@
     "prettyunits": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "prettyunits",
         "Title": "Pretty, Human Readable Formatting of Quantities",
@@ -3433,6 +3937,10 @@
     "processx": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "processx",
         "Title": "Execute and Control System Processes",
@@ -3459,6 +3967,10 @@
     "prodlim": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "prodlim",
         "Title": "Product-Limit Estimation for Censored Event History Analysis",
@@ -3482,6 +3994,10 @@
     "progress": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "progress",
         "Title": "Terminal Progress Bars",
@@ -3507,6 +4023,10 @@
     "promises": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "promises",
         "Type": "Package",
@@ -3536,6 +4056,10 @@
     "ps": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "ps",
         "Version": "1.3.3",
@@ -3563,6 +4087,10 @@
     "purrr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "purrr",
         "Title": "Functional Programming Tools",
@@ -3588,9 +4116,45 @@
         "Built": "R 4.0.0; x86_64-pc-linux-gnu; 2020-05-09 17:28:54 UTC; unix"
       }
     },
+    "ranger": {
+      "Source": "RSPM",
+      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "ranger",
+        "Type": "Package",
+        "Title": "A Fast Implementation of Random Forests",
+        "Version": "0.12.1",
+        "Date": "2020-01-10",
+        "Author": "Marvin N. Wright [aut, cre], Stefan Wager [ctb], Philipp Probst [ctb]",
+        "Maintainer": "Marvin N. Wright <cran@wrig.de>",
+        "Description": "A fast implementation of Random Forests, particularly suited for high\n          dimensional data. Ensembles of classification, regression, survival and\n          probability prediction trees are supported. Data from genome-wide association\n          studies can be analyzed efficiently. In addition to data frames, datasets of\n          class 'gwaa.data' (R package 'GenABEL') and 'dgCMatrix' (R package 'Matrix') \n          can be directly analyzed.",
+        "License": "GPL-3",
+        "Imports": "Rcpp (>= 0.11.2), Matrix",
+        "LinkingTo": "Rcpp, RcppEigen",
+        "Depends": "R (>= 3.1)",
+        "Suggests": "survival, testthat",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.0.2",
+        "URL": "https://github.com/imbs-hl/ranger",
+        "BugReports": "https://github.com/imbs-hl/ranger/issues",
+        "NeedsCompilation": "yes",
+        "Packaged": "2020-01-10 10:12:51 UTC; wright",
+        "Repository": "RSPM",
+        "Date/Publication": "2020-01-10 17:50:05 UTC",
+        "Built": "R 4.0.0; x86_64-pc-linux-gnu; 2020-05-09 17:10:00 UTC; unix"
+      }
+    },
     "rappdirs": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "rappdirs",
         "Type": "Package",
@@ -3618,6 +4182,10 @@
     "readr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "readr",
         "Version": "1.3.1",
@@ -3648,6 +4216,10 @@
     "readxl": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "readxl",
         "Title": "Read Excel Files",
@@ -3677,6 +4249,10 @@
     "recipes": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "recipes",
         "Title": "Preprocessing Tools to Create Design Matrices",
@@ -3706,6 +4282,10 @@
     "rematch": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "rematch",
         "Title": "Match Regular Expressions with a Nicer 'API'",
@@ -3730,6 +4310,10 @@
     "rematch2": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "rematch2",
         "Title": "Tidy Output from Regular Expression Matching",
@@ -3756,6 +4340,10 @@
     "reprex": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "reprex",
         "Title": "Prepare Reproducible Example Code via the Clipboard",
@@ -3785,6 +4373,10 @@
     "reshape2": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "reshape2",
         "Title": "Flexibly Reshape Data: A Reboot of the Reshape Package",
@@ -3812,6 +4404,10 @@
     "rlang": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "rlang",
         "Version": "0.4.6",
@@ -3840,6 +4436,10 @@
     "rmarkdown": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "rmarkdown",
         "Type": "Package",
@@ -3869,6 +4469,10 @@
     "rpart": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "rpart",
         "Priority": "recommended",
@@ -3897,6 +4501,10 @@
     "rprojroot": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "rprojroot",
         "Title": "Finding Files in Project Subdirectories",
@@ -3926,6 +4534,10 @@
     "rsample": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "rsample",
         "Title": "General Resampling Infrastructure",
@@ -3952,13 +4564,17 @@
       }
     },
     "rsconnect": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "Source": "github",
+      "Repository": null,
+      "GithubRepo": "rsconnect",
+      "GithubUsername": "rstudio",
+      "GithubRef": "master",
+      "GithubSha1": "c64f5af067e3cbef6732c7847af8d9548398ad31",
       "description": {
         "Package": "rsconnect",
         "Type": "Package",
         "Title": "Deployment Interface for R Markdown Documents and Shiny\nApplications",
-        "Version": "0.8.16",
+        "Version": "0.8.16-9002",
         "Author": "JJ Allaire",
         "Maintainer": "Jonathan McPherson <jonathan@rstudio.com>",
         "Description": "Programmatic deployment interface for 'RPubs', 'shinyapps.io', and\n    'RStudio Connect'. Supported content types include R Markdown documents,\n    Shiny applications, Plumber APIs, plots, and static web content.",
@@ -3966,20 +4582,32 @@
         "Imports": "curl, digest, jsonlite, openssl, packrat (>= 0.4.8-1),\nrstudioapi (>= 0.5), yaml (>= 2.1.5)",
         "Suggests": "RCurl, callr, httpuv, knitr, plumber (>= 0.3.2), reticulate,\nrmarkdown (>= 1.1), shiny, sourcetools, testthat, xtable",
         "License": "GPL-2",
-        "RoxygenNote": "6.1.1",
+        "RoxygenNote": "7.0.2",
+        "Roxygen": "list(markdown = TRUE)",
         "URL": "https://github.com/rstudio/rsconnect",
         "BugReports": "https://github.com/rstudio/rsconnect/issues",
+        "RemoteType": "github",
+        "RemoteHost": "api.github.com",
+        "RemoteRepo": "rsconnect",
+        "RemoteUsername": "rstudio",
+        "RemoteRef": "master",
+        "RemoteSha": "c64f5af067e3cbef6732c7847af8d9548398ad31",
+        "GithubRepo": "rsconnect",
+        "GithubUsername": "rstudio",
+        "GithubRef": "master",
+        "GithubSHA1": "c64f5af067e3cbef6732c7847af8d9548398ad31",
         "NeedsCompilation": "no",
-        "Packaged": "2019-12-13 19:18:46 UTC; jmcphers",
-        "Repository": "RSPM",
-        "Date/Publication": "2019-12-13 20:00:02 UTC",
-        "Encoding": "UTF-8",
-        "Built": "R 4.0.0; ; 2020-05-09 17:28:16 UTC; unix"
+        "Packaged": "2021-01-07 17:54:28 UTC; james",
+        "Built": "R 4.0.2; ; 2021-01-07 17:54:29 UTC; unix"
       }
     },
     "rstan": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "rstan",
         "Encoding": "UTF-8",
@@ -4011,6 +4639,10 @@
     "rstanarm": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "rstanarm",
         "Type": "Package",
@@ -4043,6 +4675,10 @@
     "rstantools": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "rstantools",
         "Type": "Package",
@@ -4073,6 +4709,10 @@
     "rstudioapi": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "rstudioapi",
         "Title": "Safely Access the RStudio API",
@@ -4098,6 +4738,10 @@
     "rvest": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "rvest",
         "Title": "Easily Harvest (Scrape) Web Pages",
@@ -4127,6 +4771,10 @@
     "scales": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "scales",
         "Title": "Scale Functions for Visualization",
@@ -4154,6 +4802,10 @@
     "selectr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "selectr",
         "Type": "Package",
@@ -4181,6 +4833,10 @@
     "shiny": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "shiny",
         "Type": "Package",
@@ -4209,6 +4865,10 @@
     "shinyjs": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "shinyjs",
         "Title": "Easily Improve the User Experience of Your Shiny Apps in Seconds",
@@ -4238,6 +4898,10 @@
     "shinystan": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "shinystan",
         "Title": "Interactive Visual and Numerical Diagnostics and Posterior\nAnalysis for Bayesian Models",
@@ -4267,6 +4931,10 @@
     "shinythemes": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "shinythemes",
         "Title": "Themes for Shiny",
@@ -4291,6 +4959,10 @@
     "sourcetools": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "sourcetools",
         "Type": "Package",
@@ -4316,6 +4988,10 @@
     "statmod": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "statmod",
         "Version": "1.4.34",
@@ -4339,6 +5015,10 @@
     "stopwords": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "stopwords",
         "Type": "Package",
@@ -4368,6 +5048,10 @@
     "stringi": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "stringi",
         "Version": "1.4.6",
@@ -4397,6 +5081,10 @@
     "stringr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "stringr",
         "Title": "Simple, Consistent Wrappers for Common String Operations",
@@ -4425,6 +5113,10 @@
     "survival": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Title": "Survival Analysis",
         "Maintainer": "Terry M Therneau <therneau.terry@mayo.edu>",
@@ -4452,6 +5144,10 @@
     "sys": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "sys",
         "Type": "Package",
@@ -4479,6 +5175,10 @@
     "testthat": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "testthat",
         "Title": "Unit Testing for R",
@@ -4507,6 +5207,10 @@
     "threejs": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "threejs",
         "Type": "Package",
@@ -4536,6 +5240,10 @@
     "tibble": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "tibble",
         "Title": "Simple Data Frames",
@@ -4565,6 +5273,10 @@
     "tidymodels": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "tidymodels",
         "Title": "Easily Install and Load the 'Tidymodels' Packages",
@@ -4593,6 +5305,10 @@
     "tidyposterior": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "tidyposterior",
         "Version": "0.0.3",
@@ -4623,6 +5339,10 @@
     "tidypredict": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "tidypredict",
         "Version": "0.4.5",
@@ -4650,6 +5370,10 @@
     "tidyr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "tidyr",
         "Title": "Tidy Messy Data",
@@ -4679,6 +5403,10 @@
     "tidyselect": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "tidyselect",
         "Title": "Select from a Set of Strings",
@@ -4708,6 +5436,10 @@
     "tidytext": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "tidytext",
         "Type": "Package",
@@ -4737,6 +5469,10 @@
     "tidyverse": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "tidyverse",
         "Title": "Easily Install and Load the 'Tidyverse'",
@@ -4765,6 +5501,10 @@
     "timeDate": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "timeDate",
         "Title": "Rmetrics - Chronological and Calendar Objects",
@@ -4789,6 +5529,10 @@
     "tinytex": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "tinytex",
         "Type": "Package",
@@ -4816,6 +5560,10 @@
     "tokenizers": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "tokenizers",
         "Type": "Package",
@@ -4847,6 +5595,10 @@
     "tune": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "tune",
         "Title": "Tidy Tuning Tools",
@@ -4874,6 +5626,10 @@
     "usethis": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "usethis",
         "Title": "Automate Package and Project Setup",
@@ -4902,6 +5658,10 @@
     "utf8": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "utf8",
         "Version": "1.1.4",
@@ -4928,6 +5688,10 @@
     "vctrs": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "vctrs",
         "Title": "Vector Helpers",
@@ -4957,6 +5721,10 @@
     "viridisLite": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "viridisLite",
         "Type": "Package",
@@ -4984,6 +5752,10 @@
     "whisker": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "whisker",
         "Maintainer": "Edwin de Jonge <edwindjonge@gmail.com>",
@@ -5008,6 +5780,10 @@
     "withr": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "withr",
         "Title": "Run Code 'With' Temporarily Modified Global State",
@@ -5037,6 +5813,10 @@
     "workflows": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "workflows",
         "Title": "Modeling Workflows",
@@ -5065,6 +5845,10 @@
     "xfun": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "xfun",
         "Type": "Package",
@@ -5093,6 +5877,10 @@
     "xml2": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "xml2",
         "Title": "Parse XML",
@@ -5122,6 +5910,10 @@
     "xtable": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "xtable",
         "Version": "1.8-4",
@@ -5148,6 +5940,10 @@
     "xts": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "xts",
         "Type": "Package",
@@ -5176,6 +5972,10 @@
     "yaml": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "yaml",
         "Type": "Package",
@@ -5200,6 +6000,10 @@
     "yardstick": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "yardstick",
         "Type": "Package",
@@ -5230,6 +6034,10 @@
     "zip": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "zip",
         "Title": "Cross-Platform 'zip' Compression",
@@ -5254,6 +6062,10 @@
     "zoo": {
       "Source": "RSPM",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/4047",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
       "description": {
         "Package": "zoo",
         "Version": "1.8-8",
@@ -5279,13 +6091,7 @@
   },
   "files": {
     "credit-model.Rmd": {
-      "checksum": "5c5da46da492180af4eb5da28bf75b9d"
-    },
-    "data/credit": {
-      "checksum": "903fae43d4af035eef4e117eebf7572c"
-    },
-    "data/german_credit_data.csv": {
-      "checksum": "3086216ff1ff32f7626554e730cccc91"
+      "checksum": "27dbec94b3ad8ca6e73d499b4a193c57"
     },
     "packrat/desc/askpass": {
       "checksum": "5e28e0ee4fff3c83eb23f658c43f3c96"
@@ -5659,6 +6465,9 @@
     "packrat/desc/R6": {
       "checksum": "fa5d07bb7e957b6c97958837c01f94e9"
     },
+    "packrat/desc/ranger": {
+      "checksum": "a67dc3c15dfb9269252db728757f2232"
+    },
     "packrat/desc/rappdirs": {
       "checksum": "d8977efd9efef1b734aaf39f4a21c680"
     },
@@ -5711,7 +6520,7 @@
       "checksum": "96097db251f6acb65b7b204745dcd097"
     },
     "packrat/desc/rsconnect": {
-      "checksum": "eea61b778582e2df22dbbac2863bce07"
+      "checksum": "2388706df83472c14a6fa670891b76bc"
     },
     "packrat/desc/RSQLite": {
       "checksum": "311b522d4988d6f11d22b4fb89ac35a2"
@@ -5867,7 +6676,7 @@
       "checksum": "5ccd73ef1fad2830e3dbf60381c59d6e"
     },
     "packrat/packrat.lock": {
-      "checksum": "9e655ef779c32d4e1fc879afa71505e6"
+      "checksum": "09e766be66fcd35611fe9fbf50acb2d4"
     }
   },
   "users": null
