@@ -8,8 +8,10 @@ output: html_notebook
 library(tidymodels)
 library(tidyverse)
 library(DBI)
+library(pins)
 ```
 
+Collect data from database to build model.
 ```{r data}
 con <- dbConnect(RSQLite::SQLite(), "data/credit")
 credit_data <- tbl(con, "credit") %>% 
@@ -21,7 +23,7 @@ dbDisconnect(con)
 credit_data
 ```
 
-
+Build random forest model using the `ranger` package
 ```{r}
 rf_mod <- rand_forest(mode = "classification") %>% 
   set_engine("ranger")
@@ -32,7 +34,18 @@ rf_fit <- rf_mod %>%
 rf_fit
 ```
 
+Save the trained model to a pin on RStudio Connect
 ```{r}
-readr::write_rds(rf_fit, "credit-model.rds")
+board_register_rsconnect(server = "https://colorado.rstudio.com/rsc",
+                         key = Sys.getenv("connect_key"))
+model_details <- list(
+  model = rf_fit,
+  train_date = lubridate::today()
+)
+
+pin(x = model_details,
+    name = "credit_risk_model",
+    description = "Credit Risk Model trained on Kaggle dataset",
+    board = "rsconnect")
 ```
 

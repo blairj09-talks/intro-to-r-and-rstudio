@@ -1764,14 +1764,16 @@ summary {
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyBQYWNrYWdlcyAtLS0tXG5saWJyYXJ5KHRpZHltb2RlbHMpXG5saWJyYXJ5KHRpZHl2ZXJzZSlcbmxpYnJhcnkoREJJKVxuYGBgIn0= -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyBQYWNrYWdlcyAtLS0tXG5saWJyYXJ5KHRpZHltb2RlbHMpXG5saWJyYXJ5KHRpZHl2ZXJzZSlcbmxpYnJhcnkoREJJKVxubGlicmFyeShwaW5zKVxuYGBgIn0= -->
 <pre class="r"><code># Packages ----
 library(tidymodels)
 library(tidyverse)
-library(DBI)</code></pre>
+library(DBI)
+library(pins)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
+<p>Collect data from database to build model.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY29uIDwtIGRiQ29ubmVjdChSU1FMaXRlOjpTUUxpdGUoKSwgXCJkYXRhL2NyZWRpdFwiKVxuY3JlZGl0X2RhdGEgPC0gdGJsKGNvbiwgXCJjcmVkaXRcIikgJT4lIFxuICBjb2xsZWN0KCkgJT4lIFxuICBtdXRhdGVfaWYoaXMuY2hhcmFjdGVyLCBhcy5mYWN0b3IpICU+JSBcbiAgbXV0YXRlKGpvYiA9IGFzLmZhY3Rvcihqb2IpKVxuZGJEaXNjb25uZWN0KGNvbilcblxuY3JlZGl0X2RhdGFcbmBgYCJ9 -->
@@ -1793,6 +1795,7 @@ credit_data</code></pre>
 <!-- rnb-frame-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
+<p>Build random forest model using the <code>ranger</code> package</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucmZfbW9kIDwtIHJhbmRfZm9yZXN0KG1vZGUgPSBcImNsYXNzaWZpY2F0aW9uXCIpICU+JSBcbiAgc2V0X2VuZ2luZShcInJhbmdlclwiKVxuXG5yZl9maXQgPC0gcmZfbW9kICU+JSBcbiAgZml0KHJpc2sgfiAuLCBkYXRhID0gY3JlZGl0X2RhdGEpXG5cbnJmX2ZpdFxuYGBgIn0= -->
@@ -1804,10 +1807,10 @@ rf_fit &lt;- rf_mod %&gt;%
 
 rf_fit</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoicGFyc25pcCBtb2RlbCBvYmplY3RcblxuRml0IHRpbWU6ICA0MDVtcyBcblJhbmdlciByZXN1bHRcblxuQ2FsbDpcbiByYW5nZXI6OnJhbmdlcihmb3JtdWxhID0gZm9ybXVsYSwgZGF0YSA9IGRhdGEsIG51bS50aHJlYWRzID0gMSwgICAgICB2ZXJib3NlID0gRkFMU0UsIHNlZWQgPSBzYW1wbGUuaW50KDEwXjUsIDEpLCBwcm9iYWJpbGl0eSA9IFRSVUUpIFxuXG5UeXBlOiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUHJvYmFiaWxpdHkgZXN0aW1hdGlvbiBcbk51bWJlciBvZiB0cmVlczogICAgICAgICAgICAgICAgICA1MDAgXG5TYW1wbGUgc2l6ZTogICAgICAgICAgICAgICAgICAgICAgMTAwMCBcbk51bWJlciBvZiBpbmRlcGVuZGVudCB2YXJpYWJsZXM6ICA5IFxuTXRyeTogICAgICAgICAgICAgICAgICAgICAgICAgICAgIDMgXG5UYXJnZXQgbm9kZSBzaXplOiAgICAgICAgICAgICAgICAgMTAgXG5WYXJpYWJsZSBpbXBvcnRhbmNlIG1vZGU6ICAgICAgICAgbm9uZSBcblNwbGl0cnVsZTogICAgICAgICAgICAgICAgICAgICAgICBnaW5pIFxuT09CIHByZWRpY3Rpb24gZXJyb3IgKEJyaWVyIHMuKTogIDAuMTcwOTgyOCBcbiJ9 -->
+<!-- rnb-output-begin eyJkYXRhIjoicGFyc25pcCBtb2RlbCBvYmplY3RcblxuRml0IHRpbWU6ICA0NzNtcyBcblJhbmdlciByZXN1bHRcblxuQ2FsbDpcbiByYW5nZXI6OnJhbmdlcihmb3JtdWxhID0gZm9ybXVsYSwgZGF0YSA9IGRhdGEsIG51bS50aHJlYWRzID0gMSwgICAgICB2ZXJib3NlID0gRkFMU0UsIHNlZWQgPSBzYW1wbGUuaW50KDEwXjUsIDEpLCBwcm9iYWJpbGl0eSA9IFRSVUUpIFxuXG5UeXBlOiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUHJvYmFiaWxpdHkgZXN0aW1hdGlvbiBcbk51bWJlciBvZiB0cmVlczogICAgICAgICAgICAgICAgICA1MDAgXG5TYW1wbGUgc2l6ZTogICAgICAgICAgICAgICAgICAgICAgMTAwMCBcbk51bWJlciBvZiBpbmRlcGVuZGVudCB2YXJpYWJsZXM6ICA5IFxuTXRyeTogICAgICAgICAgICAgICAgICAgICAgICAgICAgIDMgXG5UYXJnZXQgbm9kZSBzaXplOiAgICAgICAgICAgICAgICAgMTAgXG5WYXJpYWJsZSBpbXBvcnRhbmNlIG1vZGU6ICAgICAgICAgbm9uZSBcblNwbGl0cnVsZTogICAgICAgICAgICAgICAgICAgICAgICBnaW5pIFxuT09CIHByZWRpY3Rpb24gZXJyb3IgKEJyaWVyIHMuKTogIDAuMTcxOTI2MiBcbiJ9 -->
 <pre><code>parsnip model object
 
-Fit time:  405ms 
+Fit time:  473ms 
 Ranger result
 
 Call:
@@ -1821,17 +1824,28 @@ Mtry:                             3
 Target node size:                 10 
 Variable importance mode:         none 
 Splitrule:                        gini 
-OOB prediction error (Brier s.):  0.1709828 </code></pre>
+OOB prediction error (Brier s.):  0.1719262 </code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<p>Save the trained model to a pin on RStudio Connect</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucGluKHggPSBtb2RlbF9kZXRhaWxzLFxuICAgIG5hbWUgPSBcImNyZWRpdF9yaXNrX21vZGVsXCIsXG4gICAgZGVzY3JpcHRpb24gPSBcIkNyZWRpdCBSaXNrIE1vZGVsIHRyYWluZWQgb24gS2FnZ2xlIGRhdGFzZXRcIixcbiAgICBib2FyZCA9IFwicnNjb25uZWN0XCIpXG5cbmBgYCJ9 -->
+<pre class="r"><code>pin(x = model_details,
+    name = &quot;credit_risk_model&quot;,
+    description = &quot;Credit Risk Model trained on Kaggle dataset&quot;,
+    board = &quot;rsconnect&quot;)
+</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiaW52YWxpZCB1aWQgdmFsdWUgcmVwbGFjZWQgYnkgdGhhdCBmb3IgdXNlciAnbm9ib2R5J2ludmFsaWQgZ2lkIHZhbHVlIHJlcGxhY2VkIGJ5IHRoYXQgZm9yIHVzZXIgJ25vYm9keSdcbiJ9 -->
+<pre><code>invalid uid value replaced by that for user &#39;nobody&#39;invalid gid value replaced by that for user &#39;nobody&#39;</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiQ3JlZGl0IE1vZGVsIgpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sKLS0tCgpgYGB7ciBzZXR1cH0KIyBQYWNrYWdlcyAtLS0tCmxpYnJhcnkodGlkeW1vZGVscykKbGlicmFyeSh0aWR5dmVyc2UpCmxpYnJhcnkoREJJKQpgYGAKCmBgYHtyIGRhdGF9CmNvbiA8LSBkYkNvbm5lY3QoUlNRTGl0ZTo6U1FMaXRlKCksICJkYXRhL2NyZWRpdCIpCmNyZWRpdF9kYXRhIDwtIHRibChjb24sICJjcmVkaXQiKSAlPiUgCiAgY29sbGVjdCgpICU+JSAKICBtdXRhdGVfaWYoaXMuY2hhcmFjdGVyLCBhcy5mYWN0b3IpICU+JSAKICBtdXRhdGUoam9iID0gYXMuZmFjdG9yKGpvYikpCmRiRGlzY29ubmVjdChjb24pCgpjcmVkaXRfZGF0YQpgYGAKCgpgYGB7cn0KcmZfbW9kIDwtIHJhbmRfZm9yZXN0KG1vZGUgPSAiY2xhc3NpZmljYXRpb24iKSAlPiUgCiAgc2V0X2VuZ2luZSgicmFuZ2VyIikKCnJmX2ZpdCA8LSByZl9tb2QgJT4lIAogIGZpdChyaXNrIH4gLiwgZGF0YSA9IGNyZWRpdF9kYXRhKQoKcmZfZml0CmBgYAoKYGBge3J9CnJlYWRyOjp3cml0ZV9yZHMocmZfZml0LCAiY3JlZGl0LW1vZGVsLnJkcyIpCmBgYAoK</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiQ3JlZGl0IE1vZGVsIgpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sKLS0tCgpgYGB7ciBzZXR1cH0KIyBQYWNrYWdlcyAtLS0tCmxpYnJhcnkodGlkeW1vZGVscykKbGlicmFyeSh0aWR5dmVyc2UpCmxpYnJhcnkoREJJKQpsaWJyYXJ5KHBpbnMpCmBgYAoKQ29sbGVjdCBkYXRhIGZyb20gZGF0YWJhc2UgdG8gYnVpbGQgbW9kZWwuCmBgYHtyIGRhdGF9CmNvbiA8LSBkYkNvbm5lY3QoUlNRTGl0ZTo6U1FMaXRlKCksICJkYXRhL2NyZWRpdCIpCmNyZWRpdF9kYXRhIDwtIHRibChjb24sICJjcmVkaXQiKSAlPiUgCiAgY29sbGVjdCgpICU+JSAKICBtdXRhdGVfaWYoaXMuY2hhcmFjdGVyLCBhcy5mYWN0b3IpICU+JSAKICBtdXRhdGUoam9iID0gYXMuZmFjdG9yKGpvYikpCmRiRGlzY29ubmVjdChjb24pCgpjcmVkaXRfZGF0YQpgYGAKCkJ1aWxkIHJhbmRvbSBmb3Jlc3QgbW9kZWwgdXNpbmcgdGhlIGByYW5nZXJgIHBhY2thZ2UKYGBge3J9CnJmX21vZCA8LSByYW5kX2ZvcmVzdChtb2RlID0gImNsYXNzaWZpY2F0aW9uIikgJT4lIAogIHNldF9lbmdpbmUoInJhbmdlciIpCgpyZl9maXQgPC0gcmZfbW9kICU+JSAKICBmaXQocmlzayB+IC4sIGRhdGEgPSBjcmVkaXRfZGF0YSkKCnJmX2ZpdApgYGAKClNhdmUgdGhlIHRyYWluZWQgbW9kZWwgdG8gYSBwaW4gb24gUlN0dWRpbyBDb25uZWN0CmBgYHtyfQpib2FyZF9yZWdpc3Rlcl9yc2Nvbm5lY3Qoc2VydmVyID0gImh0dHBzOi8vY29sb3JhZG8ucnN0dWRpby5jb20vcnNjIiwKICAgICAgICAgICAgICAgICAgICAgICAgIGtleSA9IFN5cy5nZXRlbnYoImNvbm5lY3Rfa2V5IikpCm1vZGVsX2RldGFpbHMgPC0gbGlzdCgKICBtb2RlbCA9IHJmX2ZpdCwKICB0cmFpbl9kYXRlID0gbHVicmlkYXRlOjp0b2RheSgpCikKCnBpbih4ID0gbW9kZWxfZGV0YWlscywKICAgIG5hbWUgPSAiY3JlZGl0X3Jpc2tfbW9kZWwiLAogICAgZGVzY3JpcHRpb24gPSAiQ3JlZGl0IFJpc2sgTW9kZWwgdHJhaW5lZCBvbiBLYWdnbGUgZGF0YXNldCIsCiAgICBib2FyZCA9ICJyc2Nvbm5lY3QiKQpgYGAKCg==</div>
 
 
 
