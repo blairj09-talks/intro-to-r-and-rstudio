@@ -3,12 +3,15 @@ library(DBI)
 library(parsnip)
 library(ranger)
 library(tidyverse)
+library(pins)
 
 con <- dbConnect(RSQLite::SQLite(), "data/credit")
 credit_data <- dbReadTable(con, "credit")
 dbDisconnect(con)
 
-model <- readr::read_rds("credit-model.rds")
+board_register_rsconnect(server = "https://colorado.rstudio.com/rsc",
+                         key = Sys.getenv("connect_key"))
+model <- pin_get("james/credit_risk_model", board = "rsconnect")
 
 
 # Define UI for application that draws a histogram
@@ -42,7 +45,7 @@ ui <- fluidPage(
                         choices = sort(unique(credit_data$checking_account))),
             textInput("amount",
                       "Credit Amount:",
-                      placeholder = "1000.00"),
+                      value = "1000.00"),
             sliderInput("duration",
                         "Duration:",
                         min = min(credit_data$duration),
@@ -80,7 +83,7 @@ server <- function(input, output) {
     })
 
     output$credit_score <- renderPlot({
-        predict(model, input_data(), type = "prob") %>% 
+        predict(model$model, input_data(), type = "prob") %>% 
             pivot_longer(cols = everything()) %>% 
             mutate(name = str_extract(name, "bad|good")) %>% 
             ggplot(aes(y = value, fill = name)) +
