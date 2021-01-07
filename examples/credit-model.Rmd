@@ -41,7 +41,15 @@ board_register_rsconnect(server = "https://colorado.rstudio.com/rsc",
                          key = Sys.getenv("connect_key"))
 model_details <- list(
   model = rf_fit,
-  train_date = lubridate::today()
+  train_date = lubridate::today(),
+  age = c(min(credit_data$age), median(credit_data$age), max(credit_data$age)),
+  sex = sort(unique(credit_data$sex)),
+  jobs = sort(unique(credit_data$job)),
+  housing = sort(unique(credit_data$housing)),
+  saving_accounts = sort(unique(credit_data$saving_accounts)),
+  checking_account = sort(unique(credit_data$checking_account)),
+  duration = c(min(credit_data$duration), median(credit_data$duration), max(credit_data$duration)),
+  purpose = sort(unique(credit_data$purpose))
 )
 
 pin(x = model_details,
