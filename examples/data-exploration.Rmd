@@ -2,7 +2,7 @@
 title: "Credit Data"
 output: html_notebook
 ---
-
+This is an RMarkdown document...
 ```{r setup}
 # Packages ----
 library(tidyverse)
@@ -13,6 +13,11 @@ library(DBI)
 con <- dbConnect(RSQLite::SQLite(), "data/credit")
 credit_data <- tbl(con, "credit")
 ```
+
+```{r}
+show_query(credit_data)
+```
+
 
 ## Data Exploration
 ```{r}
