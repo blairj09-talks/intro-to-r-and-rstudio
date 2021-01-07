@@ -5281,6 +5281,12 @@
     "credit-model.Rmd": {
       "checksum": "5c5da46da492180af4eb5da28bf75b9d"
     },
+    "data/credit": {
+      "checksum": "903fae43d4af035eef4e117eebf7572c"
+    },
+    "data/german_credit_data.csv": {
+      "checksum": "3086216ff1ff32f7626554e730cccc91"
+    },
     "packrat/desc/askpass": {
       "checksum": "5e28e0ee4fff3c83eb23f658c43f3c96"
     },
