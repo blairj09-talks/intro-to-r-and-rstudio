@@ -1,0 +1,91 @@
+---
+servers:
+- url: ''
+openapi: 3.0.3
+info:
+  description: foo
+  title: Credit Risk Model
+  version: 1.0.0
+paths:
+  "/status":
+    get:
+      summary: API Status
+      responses:
+        '200':
+          description: OK
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                type: string
+        default:
+          description: Default response.
+      parameters: []
+  "/predict":
+    post:
+      summary: Predict credit risk
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                type: string
+        default:
+          description: Default response.
+          content:
+            application/json:
+              schema:
+                type: object
+      parameters: []
+      requestBody:
+        description: Credit risk data
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                age:
+                  type: integer
+                  title: "Age"
+                  example: 67
+                sex:
+                  type: string
+                  title: "sex"
+                  example: "male"
+                job:
+                  type: number
+                  title: "Job category"
+                  example: 2
+                housing:
+                  type: string
+                  title: "Housing status"
+                  example: "own"
+                saving_accounts:
+                  type: string
+                  title: "Saving accounts status"
+                  example: "little"
+                checking_account:
+                  type: string
+                  title: "Checking accounts status"
+                  example: "little"
+                credit_amount:
+                  type: number
+                  title: "Credit application amount"
+                  example: 1169
+                duration:
+                  type: integer
+                  title: "Loan duration (months)"
+                  example: 6
+                purpose:
+                  type: string
+                  title: "Purpose for loan"
+                  example: "radio/TV"
