@@ -1,13 +1,8 @@
 library(shiny)
-library(DBI)
 library(parsnip)
 library(ranger)
 library(tidyverse)
 library(pins)
-
-con <- dbConnect(RSQLite::SQLite(), "data/credit")
-credit_data <- dbReadTable(con, "credit")
-dbDisconnect(con)
 
 board_register_rsconnect(server = "https://colorado.rstudio.com/rsc",
                          key = Sys.getenv("connect_key"))
@@ -25,35 +20,35 @@ ui <- fluidPage(
         sidebarPanel(
             sliderInput("age",
                         "Age:",
-                        min = min(credit_data$age),
-                        max = max(credit_data$age),
-                        value = median(credit_data$age)),
+                        min = model$age[1],
+                        max = model$age[3],
+                        value = model$age[2]),
             selectInput("sex",
                         "Sex:",
-                        choices = unique(credit_data$sex)),
+                        choices = model$sex),
             selectInput("job",
                         "Job:",
-                        choices = sort(unique(credit_data$job))),
+                        choices = model$jobs),
             selectInput("housing",
                         "Housing:",
-                        choices = sort(unique(credit_data$housing))),
+                        choices = model$housing),
             selectInput("saving_accounts",
                         "Saving Accounts:",
-                        choices = sort(unique(credit_data$saving_accounts))),
+                        choices = model$saving_accounts),
             selectInput("checking_account",
                         "Checking Account:",
-                        choices = sort(unique(credit_data$checking_account))),
+                        choices = model$checking_account),
             textInput("amount",
                       "Credit Amount:",
                       value = "1000.00"),
             sliderInput("duration",
                         "Duration:",
-                        min = min(credit_data$duration),
-                        max = max(credit_data$duration),
-                        value = median(credit_data$duration)),
+                        min = model$duration[1],
+                        max = model$duration[3],
+                        value = model$duration[2]),
             selectInput("purpose",
                         "Purpose:",
-                        choices = sort(unique(credit_data$purpose))),
+                        choices = model$purpose),
             actionButton("submit", "Submit")
             
         ),
