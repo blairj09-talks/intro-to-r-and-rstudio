@@ -13,7 +13,7 @@ model <- pin_get("james/credit_risk_model", board = "rsconnect")
 ui <- fluidPage(
 
     # Application title
-    titlePanel("Credit Risk Prediction"),
+    titlePanel("Credit Risk Prediction v2"),
 
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
